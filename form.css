@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:rgb(237, 241, 241);
+}
+.main{
+    display:flex;
+    margin-top:150px;
+
+}
+
+.f2{
+    height:380px;
+    width:30% ;
+    background-color: white;
+    margin-left: 150px;
+    border-radius: 10px;
+    box-shadow:0px 5px 10px 0px rgb(0 , 0 , 0 , 0.5);
+   
+}
+.f1{
+    height:350px;
+    width:40% ;
+}
+.f1,h1 p{
+    padding:30px;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.f1 h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:blue;
+    font-size: 55px;
+    font-weight: bold;
+    
+}
+.f1 p{
+   font-size: 30px;
+   color:black;
+}
+
+input{
+    width:350px;
+    height:50px;
+    margin-top:20px;
+    margin-left:25px;
+    border:1px solid rgb(163, 152, 152);
+    border-radius: 5px;
+}
+ .b{
+    margin-top: 15px;
+}
+::placeholder{
+    color:rgb(105, 102, 102);
+    padding:20px;
+}
+
+.btn1{
+    width:350px;
+    height:50px;
+    margin-left:25px;
+    margin-top:20px;
+    border-radius: 5px;
+    background-color: blue;
+    color:white;
+    border:none;
+}
+h5{
+    text-align: center;
+    margin-top:20px;
+    padding:20px;
+    color:blue;
+}
+.btn2{
+    width:200px;
+    height:50px;
+    margin:10px;
+    margin-top:19px;
+    margin-left: 100px;
+    border-radius: 5px;
+    background-color:rgb(13, 194, 67);
+    color:white;
+    border:none;
+}
+.ps{
+    border-bottom: 2px  solid rgb(199, 197, 197);
+    border-width: 1px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.btn1:hover{
+    background-color: rgb(111, 111, 194);
+}
+.btn2:hover{
+    background-color: rgb(139, 190, 87);
+}
+span{
+    text-align: right;
+    position: relative;
+    bottom:50px;
+    right:170px
+    ;
+}
+/* ::before h5{
+   content:"";
+   border:2px solid black;
+   border-bottom-width: 20px; */}
+   
+
