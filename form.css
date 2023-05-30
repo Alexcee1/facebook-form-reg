@@ -49,6 +49,7 @@ input{
     margin-left:25px;
     border:1px solid rgb(163, 152, 152);
     border-radius: 5px;
+    outline:none;
 }
  .b{
     margin-top: 15px;
